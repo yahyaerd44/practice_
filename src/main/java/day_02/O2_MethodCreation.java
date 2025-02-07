@@ -36,6 +36,7 @@ public class O2_MethodCreation {
         1.methoda verecegin ismi yaz(ozel isim)
         2. method parantezi koy
         3. paratezin icine varsa argumentlerini yaz)
+        //swaplama : yer degistirme demek
          */
         swaplaYazdir(sayi1,sayi2);//main mathodun icinde argument
 
@@ -44,10 +45,10 @@ public class O2_MethodCreation {
 
     public static void swaplaYazdir(int sayi1, int sayi2) //parametre
     {
-
-    int sayi3=sayi2;//hem sayi1 de hem de sayi3 de aynı deger var
-    sayi2=sayi1;
-    sayi1=sayi3;
+    int sayi3;
+    sayi3=sayi1;//hem sayi1 de hem de sayi3 de aynı deger var.Bundan sonra sayi1 i bosaltabilirim degistirebilirim sayi3=10
+    sayi1=sayi2;//sayi1 de 20 var, sayi2 yi degistirebilirim.
+    sayi2=sayi3;
         System.out.println("swaptan sonra sayi1 : "+sayi1);
         System.out.println("swaptan sonra sayi2 : "+sayi2);
 
