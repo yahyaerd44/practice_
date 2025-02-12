@@ -24,7 +24,7 @@ public class C05_Concatination {
         //string bir ifade ile neyi toplarsak toplayalım sonuc string olur (yan yana yazılır)
         System.out.println(""+S+E+L+I+M);
 
-        //3.practice dersinde kaldım
+
 
     }
 
